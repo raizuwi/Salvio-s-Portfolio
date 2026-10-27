@@ -1,0 +1,114 @@
+body{
+    background-color: rgb(211, 223, 255);
+}
+
+div{
+    background-color: rgb(211, 223, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    gap: 5px;
+    text-align: center;
+    justify-content: center;    
+    align-items: center;
+}
+
+.clickbtn{
+    transition: 0.5s;
+    color: white;
+    background-color: rgb(70, 70, 236);
+    border: none;
+    border-radius: 5px;
+}
+
+.clickbtn:hover{
+    transform: scale(1.08);
+    transition: 0.5s;
+}
+
+.dbclickbtn{
+    transition: 0.5s;
+    color: white;
+    background-color: rgb(70, 70, 236);
+    border: none;
+    border-radius: 5px;
+}
+
+.dbclickbtn:hover{
+    transform: scale(1.08);
+    transition: 0.5s;
+}
+
+.holdbtn{
+    transition: 0.5s;
+    color: white;
+    background-color: rgb(70, 70, 236);
+    border: none;
+    border-radius: 5px;
+}
+
+.holdbtn:hover{
+    transform: scale(1.08);
+    transition: 0.5s;
+}
+
+.sec{
+    background-color: rgb(235, 240, 255);
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 100px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.534);
+    max-width: 400px;
+}
+
+.for{
+    flex: 10;
+    
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+input{
+    min-width: 300px;
+    max-width: 300px;
+
+    min-height: 20px;
+    max-height: 20px;
+
+    border-radius: 8px;
+
+    margin: 5px;
+}
+
+select{
+    min-width: 310px;
+    max-width: 310px;
+
+    min-height: 25px;
+    max-height: 25px;
+
+    border-radius: 8px;
+}
+
+.profile{
+    transition: 0.5s;
+}
+
+.profile:hover{
+    transition: 0.5s;
+    transform: scale(1.08);
+}

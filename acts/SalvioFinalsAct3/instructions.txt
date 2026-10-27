@@ -1,0 +1,24 @@
+profile:
+h1
+h4
+
+student info:
+name
+course
+year
+
+buttons:
+change title
+hide profile
+show profile
+
+activites
+
+choose your course:
+select bsit or bscs
+activity of what's been selected
+
+student list:(table)
+apply odd rows(colors)
+apply even rows(colors)
+

@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 130px;
+  }
+
+/* body{
+    background-color: rgb(20, 20, 20);
+ 
+    background-image: url('your-animation.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+} */
+
+body {
+    background: linear-gradient(-45deg, #270000, #000000, #1b0000, #1d0000);
+    background-size: 200% 200%;
+    animation: gradient-shift 6s ease infinite;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  @keyframes gradient-shift {
+    0%   { background-position: 0% 50%; }
+    50%  { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
+  header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+
+.pfpimg{
+    border-radius: 3%;
+}
+
+img{
+    border-radius: 10px;
+}
+
+.container{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+
+    background-color: rgb(255 255 255 / 10%);
+    backdrop-filter: blur(10px);
+      
+}
+
+.homecontainer{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.header{
+    background-color: rgb(255 255 255 / 30%);
+    backdrop-filter: blur(10px);
+    padding: 3%;
+    display: flex;
+    align-items: center;
+    gap: 50%;
+}
+
+footer{
+    background-color: rgb(255 255 255 / 30%);
+    backdrop-filter: blur(10px);
+    padding: 3%;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    transition: 0.5s;
+    font-weight: bold;
+    color: #1d0000;
+}
+
+a:hover{
+    transition: 0.5s;
+    color: rgb(253, 94, 147);
+}
+
+.navi{
+    display: flex;
+    gap: 30px;
+}
+
+.AboutMe{
+    display: flex;
+    gap: 3%;
+}
+
+button{
+    background-color: rgba(196, 11, 11, 0.3);
+    backdrop-filter: blur(10px);
+
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+    padding: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    transition: 0.5s;
+    margin: 10px;
+}
+
+button:hover{
+    transition: 0.5s;
+    background-color: rgba(75, 4, 4, 0.3);
+    color: rgb(199, 194, 194);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.acts{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10%;
+}
